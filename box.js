@@ -23,7 +23,7 @@ class Box{
     rotate(angle);
     rectMode(CENTER);
     fill("yellow");
-    rect(pos.x, pos.y, this.width, this.height);
+    rect(0, 0, this.width, this.height);
     pop();
     }
 }
